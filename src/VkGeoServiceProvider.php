@@ -1,11 +1,11 @@
 <?php
 
-namespace Bigperson\VkGeo;
+namespace Simonproud\VkGeo;
 
 use ATehnix\VkClient\Client;
-use Bigperson\VkGeo\Commands\ImportCitiesCommand;
-use Bigperson\VkGeo\Commands\ImportCountryCommand;
-use Bigperson\VkGeo\Commands\ImportRegionsCommand;
+use Simonproud\VkGeo\Commands\ImportCitiesCommand;
+use Simonproud\VkGeo\Commands\ImportCountryCommand;
+use Simonproud\VkGeo\Commands\ImportRegionsCommand;
 use Illuminate\Support\ServiceProvider;
 
 /**

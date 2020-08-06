@@ -23,13 +23,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Anton Kartsev",
-            "email": "anton@klin.ru"
+            "name": "simonproud",
+            "email": "simon.proud@ro.ru"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Bigperson\\VkGeo\\": "src/"
+            "Simonproud\\VkGeo\\": "src/"
         }
     }
 }

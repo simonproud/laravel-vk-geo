@@ -1,10 +1,10 @@
 <?php
 
-namespace Bigperson\VkGeo\Commands;
+namespace Simonproud\VkGeo\Commands;
 
 use ATehnix\VkClient\Requests\Request;
-use Bigperson\VkGeo\Models\City;
-use Bigperson\VkGeo\Models\Region;
+use Simonproud\VkGeo\Models\City;
+use Simonproud\VkGeo\Models\Region;
 
 class ImportCitiesCommand extends AbstractCommand
 {

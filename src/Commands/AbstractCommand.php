@@ -1,6 +1,6 @@
 <?php
 
-namespace Bigperson\VkGeo\Commands;
+namespace Simonproud\VkGeo\Commands;
 
 use ATehnix\VkClient\Client;
 use Illuminate\Console\Command;

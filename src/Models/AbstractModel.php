@@ -1,6 +1,6 @@
 <?php
 
-namespace Bigperson\VkGeo\Models;
+namespace Simonproud\VkGeo\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
