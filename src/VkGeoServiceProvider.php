@@ -20,8 +20,8 @@ class VkGeoServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishes([__DIR__.'/../publish/config/vk-geo.php' => config_path('vk-geo.php')], 'config');
-        $this->publishes([__DIR__.'/../publish/database/' => database_path('migrations')], 'database');
+        $this->publishes([__DIR__.'/publish/config/vk-geo.php' => config_path('vk-geo.php')], 'config');
+        $this->publishes([__DIR__.'/publish/database/' => database_path('migrations')], 'database');
 
         $this->bootCommands();
     }
