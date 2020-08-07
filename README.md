@@ -15,7 +15,7 @@
 Вы можете установить данный пакет с помощью сomposer:
 
 ```
-composer require bigperson/laravel-vk-geo
+composer require simonproud/laravel-vk-geo
 ```
 
 Далее необходимо зарегистровать новый сервис-провайдер в config/app.php:
@@ -24,7 +24,7 @@ composer require bigperson/laravel-vk-geo
 ...
 'providers' => [
     ...
-     Bigperson\VkGeo\VkGeoServiceProvider::class,
+     Simonproud\VkGeo\VkGeoServiceProvider::class,
 ],
 ...
 ```
@@ -33,7 +33,7 @@ composer require bigperson/laravel-vk-geo
 Сначала необходимо создать необходимые таблицы в базе данных, для этого импортируйте файлы миграций из пакета используя artisan:
 
 ```
-php artisan vendor:publish --provider=Bigperson\VkGeo\VkGeoServiceProvider
+php artisan vendor:publish --provider=Simonproud\VkGeo\VkGeoServiceProvider
 ```
 Также создастся файл конфигурации `config/vk-geo.php`. После чего необходимо применить миграции:
 ```
@@ -85,7 +85,7 @@ php artisan vk:import-cities --regionId=1014032 --regionId=1048584
 ```php
 namespace App\Http\Controllers;
 
-use Bigperson\VkGeo\Models\City;
+use Simonproud\VkGeo\Models\City;
 
 class Controller
 {
